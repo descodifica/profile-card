@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card - David Rappa</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <div class="container-switch">
+            <label class="switch">
+                <input type="checkbox" onclick="myFunction()">
+                <span class="slider round"></span>
+            </label>
+            </div>
+            <!-- <img src="./imagens/arrow-197-32.png" alt="" class="arrow">
+            <img src="./imagens/favorite-4-32.png" alt="" class="heart"> -->
+            <img src="imagens/avatar.jpg" alt="" class="profile">
+
+            <h1 class="title">David Rappa</h1>
+            <p class="subtitle">Developer Front-End</p>
+            <p class="study-title">Analise e desenvolvimento de sistemas @david1.jpg</p>
+
+            <button class="btn btn-find">Encontre-me</button>
+
+            <div class="line-div"></div>
+
+            <div class="icon-fw">
+                <div class="icon-mg">
+                    <button class="btn-icon btn-face"><img src="./imagens/facebook-32.png" alt=""></button>
+                </div>
+
+                <div class="icon-mg">
+                    <button class="btn-icon btn-insta"><img src="./imagens/instagram-32.png" alt=""></button>
+                </div>
+
+                <div class="icon-mg">
+                    <button class="btn-icon btn-git"><img src="./imagens/github-11-32.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+  function myFunction() {
+  const element = document.querySelector('.card');
+  element.classList.toggle("dark-mode");
+}
+    </script>
+</body>
+</html>
