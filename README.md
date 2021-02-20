@@ -1,6 +1,4 @@
-![](/imagens/profile-1.png)
-
-![](/imagens/profile-2.png)
+![](/imagens/profile-1.png) ![](/imagens/profile-2.png)
 
 # Profile card.
 
